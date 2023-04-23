@@ -30,4 +30,3 @@ void  ChildProcess(void)
      printf("   *** Child process is done ***\n");
      printf("child process id: %d \n ",getpid());
 }
-
