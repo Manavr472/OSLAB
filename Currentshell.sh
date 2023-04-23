@@ -16,5 +16,3 @@ echo "___________________________________________"
 echo "Top 10 processes with highest memory usage"
 top -b -o +%MEM | head -n 17
 echo "___________________________________________"
-
-
