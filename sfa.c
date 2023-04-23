@@ -26,4 +26,3 @@ for(i=0;i<b[x-1];i++)
 printf("%4d",c[x-1][i]);
 printf("\n");
 }
-
