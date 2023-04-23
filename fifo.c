@@ -52,4 +52,3 @@ int main()
     printf("\nTotal Page Faults:\t%d\n", pageFaults);
     return 0;
 }
-
