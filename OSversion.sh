@@ -1,0 +1,10 @@
+#!/bin/sh
+echo "___________________________________________"
+echo "OS version: $(cat /etc/*-release | grep "PRETTY_NAME" | cut -d "=" -f 2-)"
+echo "___________________________________________"
+echo "Kernel version: $(uname -r)"
+echo "___________________________________________"
+echo "Logged in user: $(whoami)"
+echo "___________________________________________"
+echo "Log name: $(who am i | awk '{print $1}')"
+echo "___________________________________________"
